@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package poo.clase914;
+package poo.clase915.herencia.herencia1;
 
 /**
  *
  * @author vicen
  */
-public class Main 
-{
-    public static void main(String[] args) 
+public class Main {
+    public static void main(String[] args)
     {
-        Perro p = new Perro();
-        p.printPerroColor();
+        Dog dalmata = new Dog();
+        dalmata.printColor();
+        dalmata.work();
+        
     }
     
 }
